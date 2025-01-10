@@ -6,7 +6,7 @@ export default function Vision() {
 
   return (
     <>
-      <div className="container text-center my-5">
+      <div className="container text-center my-5 vision">
         <div className="row align-items-center">
           <div className="col-md-6 text-md-start">
             <h2 className="h-t fw-bold">{t("Our Vision")}</h2>

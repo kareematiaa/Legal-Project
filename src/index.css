@@ -353,11 +353,43 @@
 }
 
 @media (max-width: 480px) {
+  [dir="rtl"] .join-our-team-container {
+    padding-right: 90px;
+  }
+
+  [dir="rtl"] .vision {
+    padding-right: 30px;
+    padding-left: 0px;
+  }
+  [dir="rtl"] .mission {
+    padding-right: 30px;
+    padding-left: 0px;
+  }
+
+  [dir="rtl"] .values {
+    height: 560px;
+    padding-right: 30px;
+  }
+
+  [dir="rtl"] .s-pic {
+    padding-right: 110px;
+  }
+
+  [dir="rtl"] .globe-icon {
+    padding-right: 27px;
+  }
+
+  [dir="rtl"] .dropdown-menu-custom {
+    left: auto; /* Adjust for alignment */
+    right: 60px;
+    bottom: 30px;
+    top: auto;
+  }
   .textt {
     font-weight: 250;
     font-size: 14px;
     line-height: 30px;
-    color: #ee0000;
+    padding-right: 0px;
     padding-bottom: 30px;
   }
 
@@ -378,7 +410,7 @@
     width: 70%;
   }
   .values {
-    height: 840px;
+    height: 880px;
     padding-top: 70px;
   }
 
@@ -395,30 +427,35 @@
   .join-our-team-container {
     width: 100%;
     height: 340px;
-    padding-left: 80px;
+    padding-left: 75px;
   }
-
+  .mission {
+    padding-left: 30px;
+  }
+  .vision {
+    padding-left: 30px;
+  }
   .circle-background {
-    width: 215px;
-    height: 215px;
+    width: 190px;
+    height: 190px;
   }
 
   .team-image {
     position: absolute;
-    left: -90px;
+    left: -75px;
     bottom: 15px;
-    width: 400px; /* Adjust the image size */
-    height: 280px;
+    width: 350px; /* Adjust the image size */
+    height: 240px;
   }
 
   .text-overlay {
     position: absolute;
     left: 6%;
     bottom: -10px;
-    font-size: 14px;
+    font-size: 12px;
   }
   .text-overlay p {
-    margin-top: 8px;
+    margin-top: 4px;
   }
 
   .manText {
@@ -466,6 +503,9 @@
     line-height: 1.2;
     color: #001d82;
   }
+  .custom-navbar {
+    padding: 3px 7px;
+  }
 
   .globe-icon {
     padding-left: 17px;
@@ -476,5 +516,278 @@
     right: auto;
     bottom: 10px;
     top: auto;
+  }
+}
+@media (min-width: 481px) and (max-width: 770px) {
+  [dir="rtl"] .join-our-team-container {
+    padding-right: 260px;
+  }
+
+  [dir="rtl"] .s-pic {
+    padding-right: 180px;
+  }
+
+  [dir="rtl"] .globe-icon {
+    padding-right: 27px;
+  }
+
+  [dir="rtl"] .dropdown-menu-custom {
+    left: auto; /* Adjust for alignment */
+    right: 60px;
+    bottom: 30px;
+    top: auto;
+  }
+  .textt {
+    font-weight: 250;
+    font-size: 16px;
+    line-height: 30px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+  }
+
+  .custom-carousel-control {
+    width: 35px;
+    height: 35px;
+  }
+
+  .break {
+    height: 150px;
+  }
+  .carousel-text {
+    width: 618px;
+    font-size: 1rem;
+  }
+
+  .img-fluid {
+    width: 70%;
+  }
+  .values {
+    height: 580px;
+    padding-top: 50px;
+  }
+
+  .h-t {
+    padding-top: 50px;
+  }
+
+  .waves {
+    height: 400px;
+    margin-top: 200px;
+    margin-bottom: 300px;
+  }
+
+  .join-our-team-container {
+    width: 100%;
+    height: 340px;
+    padding-left: 280px;
+  }
+
+  .circle-background {
+    width: 215px;
+    height: 215px;
+  }
+
+  .team-image {
+    position: absolute;
+    left: -90px;
+    bottom: 15px;
+    width: 400px; /* Adjust the image size */
+    height: 280px;
+  }
+
+  .text-overlay {
+    position: absolute;
+    left: 6%;
+    bottom: -10px;
+    font-size: 14px;
+  }
+  .text-overlay p {
+    margin-top: 8px;
+  }
+
+  .manText {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 25px;
+    color: #1b1b23;
+    padding: 0px 30px;
+  }
+
+  .service {
+    background-color: #fbf8ff;
+    height: fit-content;
+  }
+  .service2 {
+    background-color: #fbf8ff;
+    height: fit-content;
+  }
+
+  .service3 {
+    background-color: #fbf8ff;
+    height: fit-content;
+  }
+  .s-pic {
+    padding-left: 130px;
+  }
+
+  .s-text {
+    padding-right: 1px;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 32px;
+    color: #1b1b23;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    color: #001d82;
+    text-decoration: none;
+  }
+
+  .brand-name {
+    font-size: 12px;
+    line-height: 1.2;
+    color: #001d82;
+  }
+
+  .globe-icon {
+    padding-left: 17px;
+  }
+
+  .dropdown-menu-custom {
+    left: 65px; /* Adjust for alignment */
+    right: auto;
+    bottom: 10px;
+    top: auto;
+  }
+}
+@media (min-width: 771px) and (max-width: 992px) {
+  [dir="rtl"] .join-our-team-container {
+    padding-right: 280px;
+  }
+  [dir="rtl"] .s-pic {
+    padding-right: 10px;
+  }
+
+  [dir="rtl"] .globe-icon {
+    padding-right: 27px;
+  }
+
+  [dir="rtl"] .dropdown-menu-custom {
+    left: auto; /* Adjust for alignment */
+    right: 60px;
+    bottom: 30px;
+    top: auto;
+  }
+  .custom-carousel-control {
+    width: 35px;
+    height: 35px;
+  }
+
+  .h-t {
+    padding-top: 50px;
+  }
+
+  .join-our-team-container {
+    padding-left: 270px;
+  }
+
+  .text-overlay p {
+    margin-top: 8px;
+  }
+
+  .manText {
+    padding: 0px 50px;
+    margin-top: 40px;
+  }
+
+  .service {
+    background-color: #fbf8ff;
+    height: fit-content;
+  }
+  .service2 {
+    background-color: #fbf8ff;
+    height: fit-content;
+  }
+
+  .service3 {
+    background-color: #fbf8ff;
+    height: fit-content;
+  }
+
+  .s-text {
+    padding-right: 10px;
+    padding-left: 30px;
+  }
+
+  .values {
+    height: 750px;
+    padding-top: 70px;
+  }
+
+  .globe-icon {
+    padding-left: 17px;
+  }
+
+  .dropdown-menu-custom {
+    left: 65px; /* Adjust for alignment */
+    right: auto;
+    bottom: 10px;
+    top: auto;
+  }
+}
+@media (min-width: 993px) and (max-width: 1070px) {
+  [dir="rtl"] .join-our-team-container {
+    padding-right: 370px;
+  }
+  [dir="rtl"] .s-pic {
+    padding-right: 180px;
+  }
+
+  [dir="rtl"] .globe-icon {
+    padding-right: 27px;
+  }
+
+  [dir="rtl"] .dropdown-menu-custom {
+    left: auto; /* Adjust for alignment */
+    right: 60px;
+    bottom: 30px;
+    top: auto;
+  }
+  .custom-carousel-control {
+    width: 35px;
+    height: 35px;
+  }
+
+  .h-t {
+    padding-top: 50px;
+  }
+
+  .join-our-team-container {
+    padding-left: 380px;
+  }
+
+  .text-overlay p {
+    margin-top: 8px;
+  }
+
+  .manText {
+    padding: 0px 50px;
+    margin-top: 40px;
+  }
+
+  .service {
+    background-color: #fbf8ff;
+    height: fit-content;
+  }
+  .service2 {
+    background-color: #fbf8ff;
+    height: fit-content;
+  }
+
+  .service3 {
+    background-color: #fbf8ff;
+    height: fit-content;
   }
 }
