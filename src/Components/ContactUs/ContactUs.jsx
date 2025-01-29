@@ -11,7 +11,7 @@ export default function ContactUs() {
             <h2 className="pb-4"> {t("Contact Us")}</h2>
             <p>
               <i className="fa-solid fa-phone"></i>
-              <span className="px-3">26396581</span>
+              <span className="px-3">02 26396581</span>
             </p>
 
             <p>
@@ -26,7 +26,7 @@ export default function ContactUs() {
               <span className="px-3">info@gmail.com</span>
             </p>
             <p>
-              <i class="fa-solid fa-location-dot"></i>
+              <i className="fa-solid fa-location-dot"></i>
               <span className="px-3">{t("Location")}</span>
             </p>
           </div>

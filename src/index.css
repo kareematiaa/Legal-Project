@@ -222,23 +222,20 @@
 }
 
 .s-text {
-  padding-right: 60px;
-  font-weight: 450;
-  font-size: 20px;
-  line-height: 36px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
   color: #1b1b23;
-  padding-bottom: 50px;
 }
 
 .break {
   height: 275px;
-  background-image: url("assets/femida.png");
+  background-image: url("assets/books.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
 }
 .contact {
-  margin-top: 100px;
   height: 320px;
   background-image: url("assets/lady.png");
   background-size: cover;
@@ -276,45 +273,6 @@
 .respect {
   color: #000081;
 }
-.waves2 {
-  background-image: url("assets/wave2.svg");
-  background-size: cover;
-  background-position: center;
-  height: 150px;
-}
-
-.waves {
-  background-image: url("assets/wave.svg");
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-  margin-top: 200px;
-  margin-bottom: 300px;
-}
-
-.join-our-team-container {
-  text-align: center;
-  position: relative;
-  width: 700px;
-  height: 340px;
-  padding-left: 530px;
-}
-
-.circle-background {
-  position: relative;
-  background-color: #d1c19e;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-}
-
-.team-image {
-  position: absolute;
-  left: -90px;
-  bottom: 15px;
-  width: 500px; /* Adjust the image size */
-  height: 350px;
-}
 
 .text-overlay {
   position: absolute;
@@ -328,6 +286,35 @@
   text-align: center;
 }
 
+.parallax-section {
+  background-image: url("assets/femida.png"); /* Set your image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 350px; /* Height of the gap */
+  width: 100%;
+  position: relative;
+  z-index: -1; /* Ensures it appears beneath other content */
+}
+
+.bg-light {
+  transition: all 0.3s ease-in-out;
+}
+
+.bg-light:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.j-width {
+  height: 350px;
+}
+
+.j-center {
+  display: flex;
+  align-items: center;
+}
+
 .manText {
   font-weight: 450;
   font-size: 20px;
@@ -335,7 +322,10 @@
   color: #1b1b23;
   padding: 0px 150px;
 }
-
+.s-pic {
+  display: flex;
+  justify-content: center;
+}
 .dropdown-menu {
   position: absolute;
   top: 100%; /* Adjust top position as needed */
@@ -353,10 +343,6 @@
 }
 
 @media (max-width: 480px) {
-  [dir="rtl"] .join-our-team-container {
-    padding-right: 90px;
-  }
-
   [dir="rtl"] .vision {
     padding-right: 30px;
     padding-left: 0px;
@@ -365,14 +351,14 @@
     padding-right: 30px;
     padding-left: 0px;
   }
+  [dir="rtl"] .contact {
+    padding-right: 60px;
+    padding-left: 0px;
+  }
 
   [dir="rtl"] .values {
     height: 560px;
     padding-right: 30px;
-  }
-
-  [dir="rtl"] .s-pic {
-    padding-right: 110px;
   }
 
   [dir="rtl"] .globe-icon {
@@ -392,7 +378,13 @@
     padding-right: 0px;
     padding-bottom: 30px;
   }
-
+  .parallax-section {
+    height: 150px; /* Height of the gap */
+  }
+  .one-service {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
   .custom-carousel-control {
     width: 35px;
     height: 35px;
@@ -410,7 +402,7 @@
     width: 70%;
   }
   .values {
-    height: 880px;
+    height: 680px;
     padding-top: 70px;
   }
 
@@ -418,34 +410,11 @@
     padding-top: 50px;
   }
 
-  .waves {
-    height: 400px;
-    margin-top: 200px;
-    margin-bottom: 300px;
-  }
-
-  .join-our-team-container {
-    width: 100%;
-    height: 340px;
-    padding-left: 75px;
-  }
   .mission {
     padding-left: 30px;
   }
   .vision {
     padding-left: 30px;
-  }
-  .circle-background {
-    width: 190px;
-    height: 190px;
-  }
-
-  .team-image {
-    position: absolute;
-    left: -75px;
-    bottom: 15px;
-    width: 350px; /* Adjust the image size */
-    height: 240px;
   }
 
   .text-overlay {
@@ -466,31 +435,11 @@
     padding: 0px 30px;
   }
 
-  .service {
-    background-color: #fbf8ff;
-    height: fit-content;
-  }
-  .service2 {
-    background-color: #fbf8ff;
-    height: fit-content;
-  }
-
-  .service3 {
-    background-color: #fbf8ff;
-    height: fit-content;
-  }
-  .s-pic {
-    padding-left: 40px;
-  }
-
   .s-text {
-    padding-right: 1px;
     font-weight: 450;
-    font-size: 12px;
-    line-height: 32px;
+    font-size: 10px;
+    line-height: 22px;
     color: #1b1b23;
-    padding-bottom: 20px;
-    text-align: center;
   }
 
   .navbar-brand {
@@ -613,27 +562,10 @@
     padding: 0px 30px;
   }
 
-  .service {
-    background-color: #fbf8ff;
-    height: fit-content;
-  }
-  .service2 {
-    background-color: #fbf8ff;
-    height: fit-content;
-  }
-
-  .service3 {
-    background-color: #fbf8ff;
-    height: fit-content;
-  }
-  .s-pic {
-    padding-left: 130px;
-  }
-
   .s-text {
     padding-right: 1px;
     font-weight: 450;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 32px;
     color: #1b1b23;
     padding-bottom: 20px;

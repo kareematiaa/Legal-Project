@@ -1,7 +1,7 @@
 export default function Break() {
   return (
     <>
-      <div className="break">
+      <div className="parallax-section">
         <div className="overlay"></div>
       </div>
     </>
