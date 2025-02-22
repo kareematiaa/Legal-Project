@@ -90,8 +90,18 @@ export default function Navbar() {
                   {t("Contact")}
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  to="join"
+                  smooth={true}
+                  duration={100}
+                  className="nav-link"
+                >
+                  {t("Careers")}
+                </Link>
+              </li>
             </ul>
-            <div className="d-flex align-items-center ">
+            <div className="d-flex align-items-center pb-3">
               <i
                 className="fa-solid fa-globe me-4 fs-4 globe-icon"
                 onClick={toggleDropdown}

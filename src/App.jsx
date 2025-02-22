@@ -52,7 +52,9 @@ function App() {
       <Element name="service">
         <OurService />
       </Element>
-      <Student />
+      <Element name="join">
+        <Student />
+      </Element>
       <Element name="contact">
         <ContactUs />
       </Element>

@@ -23,7 +23,7 @@ export default function ContactUs() {
             </p>
             <p>
               <i className="fa-regular fa-envelope"></i>
-              <span className="px-3">info@gmail.com</span>
+              <span className="px-3">info@EIF.com</span>
             </p>
             <p>
               <i className="fa-solid fa-location-dot"></i>

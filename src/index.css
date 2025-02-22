@@ -81,7 +81,9 @@
   font-weight: 500;
   cursor: pointer;
 }
-
+.email1 {
+  font-size: 20px;
+}
 .dropdown-menu-custom span:hover {
   background-color: #f5f5f5;
   color: #001d82;
@@ -159,6 +161,24 @@
   align-items: center;
 }
 
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    129,
+    0.9
+  ); /* Navy blue overlay with transparency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
 .carousel-text {
   color: white;
   text-align: center;
@@ -226,6 +246,16 @@
   font-size: 18px;
   line-height: 28px;
   color: #1b1b23;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.35
+  ); /* Navy blue overlay with transparency */
+  backdrop-filter: blur(3px); /* Adjust the blur radius as needed */
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .break {
@@ -255,19 +285,24 @@
   height: 100vh;
   padding-top: 70px;
 }
+.sevices {
+  position: relative;
+  background-image: url("assets/closeup.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh; /* Use min-height instead of fixed height */
+  height: 1000px;
+}
 
 .service {
-  background-color: #fbf8ff;
-  height: 200px;
+  height: 420px;
 }
 .service2 {
-  background-color: #fbf8ff;
-  height: 260px;
+  height: 420px;
 }
 
 .service3 {
-  background-color: #fbf8ff;
-  height: 230px;
+  height: 420px;
 }
 
 .respect {
@@ -342,6 +377,10 @@
   display: block;
 }
 
+.legalPic {
+  width: 100%;
+}
+
 @media (max-width: 480px) {
   [dir="rtl"] .vision {
     padding-right: 30px;
@@ -351,6 +390,12 @@
     padding-right: 30px;
     padding-left: 0px;
   }
+
+  [dir="rtl"] .legalPic {
+    margin-left: 0px;
+    margin-right: 30px;
+  }
+
   [dir="rtl"] .contact {
     padding-right: 60px;
     padding-left: 0px;
@@ -370,6 +415,10 @@
     right: 60px;
     bottom: 30px;
     top: auto;
+  }
+  .email1 {
+    font-size: 12px;
+    font-weight: 500;
   }
   .textt {
     font-weight: 250;
@@ -435,13 +484,6 @@
     padding: 0px 30px;
   }
 
-  .s-text {
-    font-weight: 450;
-    font-size: 10px;
-    line-height: 22px;
-    color: #1b1b23;
-  }
-
   .navbar-brand {
     color: #001d82;
     text-decoration: none;
@@ -466,6 +508,36 @@
     bottom: 10px;
     top: auto;
   }
+
+  .sevices {
+    height: 1500px;
+    padding: 15px;
+  }
+  .service {
+    height: 200px;
+    margin-top: 0px;
+  }
+  .service2 {
+    height: 300px;
+  }
+  .service3 {
+    height: 270px;
+  }
+  .legalPic {
+    width: 80%;
+    margin-left: 30px;
+  }
+  .sPadding {
+    padding-top: 40px;
+  }
+  .s-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .overlay2 {
+    padding: 5px;
+  }
 }
 @media (min-width: 481px) and (max-width: 770px) {
   [dir="rtl"] .join-our-team-container {
@@ -475,7 +547,10 @@
   [dir="rtl"] .s-pic {
     padding-right: 180px;
   }
-
+  [dir="rtl"] .legalPic {
+    margin-left: 0px;
+    margin-right: 110px;
+  }
   [dir="rtl"] .globe-icon {
     padding-right: 27px;
   }
@@ -505,6 +580,11 @@
   .carousel-text {
     width: 618px;
     font-size: 1rem;
+  }
+
+  .email1 {
+    font-size: 16px;
+    font-weight: 600;
   }
 
   .img-fluid {
@@ -562,16 +642,6 @@
     padding: 0px 30px;
   }
 
-  .s-text {
-    padding-right: 1px;
-    font-weight: 450;
-    font-size: 14px;
-    line-height: 32px;
-    color: #1b1b23;
-    padding-bottom: 20px;
-    text-align: center;
-  }
-
   .navbar-brand {
     color: #001d82;
     text-decoration: none;
@@ -592,6 +662,41 @@
     right: auto;
     bottom: 10px;
     top: auto;
+  }
+  .sevices {
+    height: 1500px;
+    padding: 15px;
+  }
+  .service {
+    height: 170px;
+    margin-top: 0px;
+  }
+
+  .service3 {
+    height: 190px;
+  }
+  .service2 {
+    height: 320px;
+  }
+  .legalPic {
+    width: 50%;
+    margin-left: 110px;
+  }
+  .sPadding {
+    padding-top: 40px;
+  }
+  .s-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .overlay2 {
+    padding: 5px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
 @media (min-width: 771px) and (max-width: 992px) {
@@ -634,25 +739,6 @@
     margin-top: 40px;
   }
 
-  .service {
-    background-color: #fbf8ff;
-    height: fit-content;
-  }
-  .service2 {
-    background-color: #fbf8ff;
-    height: fit-content;
-  }
-
-  .service3 {
-    background-color: #fbf8ff;
-    height: fit-content;
-  }
-
-  .s-text {
-    padding-right: 10px;
-    padding-left: 30px;
-  }
-
   .values {
     height: 750px;
     padding-top: 70px;
@@ -667,6 +753,37 @@
     right: auto;
     bottom: 10px;
     top: auto;
+  }
+
+  .sevices {
+    height: 1300px;
+    padding: 15px;
+  }
+  .service {
+    height: 170px;
+    margin-top: 0px;
+  }
+
+  .service3 {
+    height: 190px;
+  }
+  .service2 {
+    height: 320px;
+  }
+  .legalPic {
+    width: 40%;
+    margin-left: 180px;
+  }
+  .sPadding {
+    padding-top: 40px;
+  }
+  .s-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .overlay2 {
+    padding: 5px;
   }
 }
 @media (min-width: 993px) and (max-width: 1070px) {
@@ -700,6 +817,10 @@
     padding-left: 380px;
   }
 
+  .s-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
   .text-overlay p {
     margin-top: 8px;
   }
@@ -707,19 +828,5 @@
   .manText {
     padding: 0px 50px;
     margin-top: 40px;
-  }
-
-  .service {
-    background-color: #fbf8ff;
-    height: fit-content;
-  }
-  .service2 {
-    background-color: #fbf8ff;
-    height: fit-content;
-  }
-
-  .service3 {
-    background-color: #fbf8ff;
-    height: fit-content;
   }
 }

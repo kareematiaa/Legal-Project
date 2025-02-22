@@ -2,6 +2,8 @@ import React from "react";
 import icon1 from "../../assets/icon1.png";
 import icon2 from "../../assets/icon2.png";
 import icon3 from "../../assets/icon3.png";
+import close from "../../assets/closeup.png";
+import legal from "../../assets/iconLegal.png";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 
@@ -10,52 +12,47 @@ export default function OurService() {
 
   return (
     <>
-      <div className="container py-5">
-        <div className="row pt-5 mt-5 ">
-          <motion.div
-            className="col-md-4 "
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.3 }}
-            viewport={{ once: true }}
-          >
-            <div className="bg-light rounded-5 pb-4 shadow">
-              <div className="s-pic">
-                <img src={icon2} className="" alt="" />
+      <div className="sevices mt-5">
+        <div className="overlay2">
+          <div className="">
+            <motion.div
+              className=""
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 2, delay: 0.3 }}
+              viewport={{ once: true }}
+            >
+              <div className="row flex justify-content-center">
+                <div className="col-10 col-lg-3 mb-5 sPadding">
+                  <div className="p-4 text-white rounded-5 s-text service">
+                    <p className=" service3">{t("Service1")}</p>
+                  </div>
+                </div>
+                <div className="col-10 col-lg-3 mb-5">
+                  <div className="p-4 text-white rounded-5 s-text service2 ">
+                    <h1 className="text-center">{t("Our Services")}</h1>
+                    <img src={legal} className="legalPic" alt="" />
+                  </div>
+                </div>
+
+                <div className="col-10 col-lg-3 mb-5">
+                  <div className="p-4 text-white rounded-5 s-text service3">
+                    <p>{t("Service3")}</p>
+                  </div>
+                </div>
               </div>
-              <p className="px-3 text-center s-text">{t("Sevice2")}</p>
-              <p></p>
-            </div>
-          </motion.div>
-          <motion.div
-            className="col-md-4 one-service "
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.5, delay: 0.3 }}
-            viewport={{ once: true }}
-          >
-            <div className="bg-light rounded-5 pb-4 shadow">
-              <div className="s-pic">
-                <img src={icon1} className="" alt="" />
+              <div className="row flex justify-content-center">
+                <div className="p-4 w-75 text-white text-center rounded-5 s-text">
+                  <p>{t("Service2")}</p>
+                </div>
               </div>
-              <p className="px-3 text-center s-text">{t("Sevice1")}</p>
-              <p></p>
-            </div>
-          </motion.div>
-          <motion.div
-            className="col-md-4"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 2, delay: 0.3 }}
-            viewport={{ once: true }}
-          >
-            <div className="bg-light rounded-5 pb-4 shadow">
-              <div className="s-pic">
-                <img src={icon3} className="" alt="" />
+              <div className="text-center mt-5 text-white">
+                <h5 className="fw-bold">"{t("support1")}"</h5>
+                <p>{t("support2")}"</p>
+                <p>{t("support3")}</p>
               </div>
-              <p className="px-3 text-center s-text">{t("Sevice3")}</p>
-            </div>
-          </motion.div>
+            </motion.div>
+          </div>
         </div>
       </div>
       {/* <div className="container">

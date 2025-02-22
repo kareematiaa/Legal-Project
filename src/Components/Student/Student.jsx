@@ -10,7 +10,12 @@ export default function Student() {
       <div className="pt-5 mt-5">
         <div className="break">
           <div className="overlay">
-            <h1 className="text-white fw-bolder join">Join Our Team</h1>
+            <div className="text-white text-center">
+              <h1 className="fw-bolder">{t("Join Our Team")} </h1> <br />
+              <span className="email1">{t("emailing")}</span>
+              <br />
+              <span className="email1">{t("emailing2")}</span>
+            </div>
           </div>
         </div>
 

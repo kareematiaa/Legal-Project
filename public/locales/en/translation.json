@@ -5,6 +5,7 @@
   "Vision": "Vision",
   "Services": "Services",
   "Contact": "Contact Us",
+  "Careers": "Careers",
   "home1": "Ignorance of the law does not exempt one from responsibility. From this perspective, we guide you on how to become well-versed in legal aspects to enhance legal awareness among individuals.",
   "home2": "As members of society under the authority of the law, we are held accountable for our actions, whether done knowingly or unknowingly. A mistake, in the eyes of the law, remains a mistake and could place you under its authority without your knowledge.",
   "home3": "We provide you with advice to ensure the law becomes a shield that protects you, not a burden you fall under.",
@@ -21,9 +22,9 @@
   "ValuesDesc5": "We always strive to ensure our customers' peace of mind by working honestly and honestlywithout compromising the truth, working efficiently andeffectively to give the best solutions every time. ",
   "ValuesDesc6": "Our pursuit of these core values is the reason why our customerscontinue to rely on our services and expertise. It is importantthat we succeed, but it is more important that we continue thissuccess.",
   "Our Services": "Our Services",
-  "Sevice1": "We are always aware that each case is a set of facts and circumstances that directly affect our customers' lives and livelihoods. We analyze facts and law and apply our experiences and expertise to provide the right advice to our customers and develop strategies to achieve their goals.",
-  "Sevice2": "We aim at excellence and constructive contribution to the service of our customers through multidisciplinary and team spirit. If you ever feel that you need more than just advice from a friend in a matter that works your mind, or you have a legal problem of any kind, I have instilled you and disturbed your life, be confident that we will stand next to you and support you with our expertise and work so that we can get through it together.",
-  "Sevice3": "If you want to put your dreams on the ground and set up your company or your own business, we will support you in charting your legal and banking steps on a sound footing that avoids complexities you may face in the future, carrying burdens that you are not preoccupied with. Be confident that we care about your interests as a member of our family. Your success is our success.",
+  "Service1": "We are always aware that each case is a set of facts and circumstances that directly affect our customers' lives and livelihoods. We analyze facts and law and apply our experiences and expertise to provide the right advice to our customers and develop strategies to achieve their goals.",
+  "Service2": "We aim at excellence and constructive contribution to the service of our customers through multidisciplinary and team spirit. If you ever feel that you need more than just advice from a friend in a matter that works your mind, or you have a legal problem of any kind, I have instilled you and disturbed your life, be confident that we will stand next to you and support you with our expertise and work so that we can get through it together.",
+  "Service3": "If you want to put your dreams on the ground and set up your company or your own business, we will support you in charting your legal and banking steps on a sound footing that avoids complexities you may face in the future, carrying burdens that you are not preoccupied with. Be confident that we care about your interests as a member of our family. Your success is our success.",
   "support1": "We Always Support You.",
   "support2": "Our Duty Is Not Just An Obligation. It Is Respect.",
   "support3": "Commitment. Respect. Accuracy. Speed",
@@ -31,5 +32,7 @@
   "JoinDesc": "Our institution's strength comes from all its members who are committed to working together on the basis of mutual support, trust, and respect among ourselves.",
   "BeMember": "Be a member of our family ...",
   "Contact Us": "Contact Us",
-  "Location": "20 Mohamed Ali El bakli , Helioplis- Cairo"
+  "Location": "20 Mohamed Ali El bakli , Helioplis- Cairo",
+  "emailing": "Apply now by emailing your CV to careers@EIF.com",
+  "emailing2": "We are excited to welcome you aboard!"
 }
